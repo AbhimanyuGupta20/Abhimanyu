@@ -1,0 +1,4 @@
+t1= 'all'
+t2= 'play'
+
+print(t1)
