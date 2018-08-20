@@ -1,0 +1,17 @@
+t1=5%2
+t2=9%5
+t3=15%12
+t4=12%15
+t5=6%6
+t6=0%7
+t7=7%0
+
+print(t1)
+print(t2)
+print(t3)
+print(t4)
+print(t5)
+print(t6)
+print(t7)
+
+#t7 produces an error as any number divided by 0 is not defined
