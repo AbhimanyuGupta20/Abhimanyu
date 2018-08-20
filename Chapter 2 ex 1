@@ -1,4 +1,12 @@
 t1= 'all'
-t2= 'play'
+t2= 'work'
+t3='and'
+t4='no'
+t5='play'
+t6='makes'
+t7='jack'
+t8='a'
+t9='dull'
+t10='boy'
 
-print(t1)
+print(t1,t2,t3,t4,t5,t6,t7,t8,t9,t10)
