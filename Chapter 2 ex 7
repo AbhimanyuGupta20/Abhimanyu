@@ -1,0 +1,2 @@
+num=51%24
+print(2+num)
