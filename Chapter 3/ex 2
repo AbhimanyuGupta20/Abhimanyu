@@ -1,0 +1,5 @@
+import turtle            
+wn = turtle.Screen()      
+object = turtle.Turtle()
+object.colour('red')
+object.speed(5)
