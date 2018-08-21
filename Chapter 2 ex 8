@@ -1,0 +1,6 @@
+time=int(input('What is the time now?'))
+wait=int(input('How much time to wait?'))
+
+add=wait%24
+currenttime=add+time
+print(currenttime)
