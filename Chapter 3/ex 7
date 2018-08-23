@@ -1,0 +1,17 @@
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("lightgreen")
+tom = turtle.Turtle()       # Create tess and set some attributes
+tom.color("red")
+tom.pensize(5)
+
+tom.rt(160)
+tom.fd(100)
+tom.lt(-43)
+tom.fd(100)
+tom.rt(-97)
+tom.fd(100)
+tom.rt(-940)
+tom.fd(100)
+tom.rt(-86)
+tom.fd(100)
