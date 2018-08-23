@@ -1,0 +1,40 @@
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("lightgreen")
+tom = turtle.Turtle()       # Create tess and set some attributes
+tom.color("red")
+tom.pensize(5)
+
+for i in range(3):
+    tom.fd(50)
+    tom.lt(120)
+
+tom.penup()
+tom.fd(100)
+tom.pendown()
+
+for i in range(4):
+    tom.fd(50)
+    tom.lt(90)
+
+tom.penup()
+tom.fd(100)
+tom.pendown()
+
+for i in range(6):
+    tom.fd(30)
+    tom.lt(60)
+
+tom.penup()
+tom.fd(100)
+tom.pendown()
+
+for i in range(8):
+    tom.fd(30)
+    tom.lt(45)
+
+j = input("wait")
+
+
+
+
