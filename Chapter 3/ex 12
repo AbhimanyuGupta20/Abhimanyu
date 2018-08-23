@@ -1,0 +1,18 @@
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("lightgreen")
+tom = turtle.Turtle()
+tom.color("red")
+tom.pensize(5)
+
+for i in range(12):
+    tom.penup()
+    tom.fd(100)
+    tom.pendown()
+    tom.fd(5)
+    tom.penup()
+    tom.backward(105)
+    tom.rt(30)
+
+j=input('wait')
+
