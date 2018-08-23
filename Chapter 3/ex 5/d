@@ -1,0 +1,7 @@
+
+product=1
+for i in xs:
+    product=product*i
+print(product)
+
+
