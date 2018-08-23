@@ -1,0 +1,11 @@
+import turtle
+wn = turtle.Screen()
+tess = turtle.Turtle()
+tess.right(90)       #will turn 90 degrees to the right
+tess.left(3600)      #will turn around 10 times exactly
+tess.right(-90)      #will turn 90 degrees to the right
+tess.speed(10)       #Will increase speed
+tess.left(3600)      #will turn anticlockwise 10 times
+tess.speed(0)        #Will stop
+tess.left(3645)
+tess.forward(-100)
