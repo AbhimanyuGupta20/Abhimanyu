@@ -1,0 +1,9 @@
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("lightgreen")
+tom = turtle.Turtle()
+print(type(tom))
+tom.color("red")
+tom.pensize(5)
+
+#the type says <class 'turtle.Turtle'>
