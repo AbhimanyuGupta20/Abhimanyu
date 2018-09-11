@@ -1,0 +1,25 @@
+import turtle
+
+def square(tom,sz):
+    for i in range(0,5,1):
+        tom.fd(sz)
+        tom.lt(90)
+        tom.fd(sz)
+        tom.lt(90)
+        tom.fd(sz)
+        tom.lt(90)
+        tom.fd(sz)
+        tom.lt(90)
+        tom.pu()
+        tom.fd(40)
+        tom.pd()
+
+
+tom = turtle.Screen()
+tom.bgcolor("lightgreen")
+
+
+tom = turtle.Turtle()
+tom.pensize(3)
+
+square(tom,20)
