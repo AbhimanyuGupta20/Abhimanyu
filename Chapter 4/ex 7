@@ -1,0 +1,4 @@
+def problem1_3(n):
+    sumtotal= sum(range(n+1))
+    print(sumtotal)
+problem1_3(3)
