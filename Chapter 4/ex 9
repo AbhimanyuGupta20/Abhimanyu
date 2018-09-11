@@ -1,0 +1,15 @@
+def star(length,angle):
+    tom.lt(180-144)
+    for i in range(0,5):
+        tom.fd(length)
+        tom.lt(angle)
+
+
+tom = turtle.Screen()
+tom.bgcolor("lightgreen")
+
+
+tom = turtle.Turtle()
+tom.pensize(3)
+
+star(100,144)
