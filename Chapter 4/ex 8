@@ -1,0 +1,5 @@
+def area_of_circle(r):
+    floatr=float(r)
+    area=3.14*float(r)*float(r)
+    print(area)
+area_of_circle(5)
