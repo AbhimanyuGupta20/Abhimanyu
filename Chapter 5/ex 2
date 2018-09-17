@@ -1,0 +1,28 @@
+start=input("starting day number")
+end=input("length of your stay")
+start=int(start)
+length=int(length)
+
+# good re-use of your function
+def day_of_the_week(n):
+    if n == 0:
+        print("Sunday")
+    if n == 1:
+        print("Monday")
+    if n == 2:
+        print("Tuesday")
+    if n == 3:
+        print("Wednesday")
+    if n == 4:
+        print("Thursday")
+    if n == 5:
+        print("Friday")
+    if n == 6:
+        print("Saturday")
+        return
+
+n=(start+length) % 7 # good
+
+print('The day you get back is' + n)
+
+day_of_the_week(n)
