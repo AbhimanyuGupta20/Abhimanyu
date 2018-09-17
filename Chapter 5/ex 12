@@ -1,0 +1,8 @@
+def isrightangled(a, b, c):
+    list= sorted([a,b,c])
+    epsilon = 0.001
+    result = list[0]**2 + list[1]**2
+    if abs(list[2]**2-result) < epsilon:
+        return True
+    else:
+        return False
