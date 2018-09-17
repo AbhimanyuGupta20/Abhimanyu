@@ -1,0 +1,6 @@
+def find_hypot(x,y):
+    step=x**2+y**2
+    answer=step**0.5
+    print(answer)
+
+find_hypot(4,5)
