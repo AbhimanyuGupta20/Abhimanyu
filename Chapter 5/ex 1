@@ -1,0 +1,17 @@
+def day(n):
+    if n==0:
+        print('sunday')
+    if n==1:
+        print('monday')
+    if n==2:
+        print('tuesday')
+    if n==3:
+        print('wednesday')
+    if n==4:
+        print('thursday')
+    if n==5:
+        print('friday')
+    if n==6:
+        print('saturday')
+
+day(5)
