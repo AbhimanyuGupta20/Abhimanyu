@@ -1,0 +1,12 @@
+
+a=input('What is the compass point')
+
+def turn_clockwise(a):
+    if a=='N':
+        print('E')
+    if a=='E':
+        print('S')
+    if a=='S':
+        print('W')
+
+turn_clockwise(a)
