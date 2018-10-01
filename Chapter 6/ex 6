@@ -1,0 +1,28 @@
+def days_in_month(month):
+    if month=='January':
+        print('31 days in month')
+    if month=='February':
+        print('28 days in month')
+    if month=='March':
+        print('31 days in month')
+    if month=='April':
+        print('30 days in month')
+    if month=='May':
+        print('31 days in month')
+    if month=='June':
+        print('30 days in month')
+    if month=='July':
+        print('31 days in month')
+    if month=='August':
+        print('31 days in month')
+    if month=='September':
+        print('30 days in month')
+    if month=='October':
+        print('31 days in month')
+    if month=='November':
+        print('30 days in month')
+    if month=='December':
+        print('31 days in month')
+
+days_in_month('January')
+
