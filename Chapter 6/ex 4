@@ -1,0 +1,22 @@
+def day_add(dayinput,numdays):
+    if dayinput=='Monday':
+        daynum=0
+    if dayinput=='Tuesday':
+        daynum=1
+    if dayinput=='Wednesday':
+        daynum=2
+    if dayinput=='Thursday':
+        daynum=3
+    if dayinput=='Friday':
+        daynum=4
+    if dayinput=='Saturday':
+        daynum=5
+    if dayinput=='Sunday':
+        daynum=6
+    if numdays<=6:
+        print(daynum+numdays)
+    elif numdays>6:
+        new=numdays//6
+        print(daynum+new)
+
+day_add('Monday',23)
