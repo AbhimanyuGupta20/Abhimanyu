@@ -1,0 +1,12 @@
+def to_secs():
+    hours=int(input('how many hours?'))
+    minutes=int(input('How many minutes?'))
+    seconds=int(input('How many seconds'))
+    if hours>=1 and minutes>=1 and seconds>=1:
+        hoursinsecs=hours*60*60
+        minsinhours=minutes*60
+        totalsecs=seconds+hoursinsecs+minsinhours
+        totalsecs=str(totalsecs)
+        print('Total number of seconds is' + totalsecs)
+
+to_secs()
