@@ -1,0 +1,14 @@
+#testcase=['hello world']
+testcase='hello world'
+words=testcase.split()
+
+totallen=0
+
+for word in words:
+    lenword=len(word)
+    totallen+=lenword
+
+#print(totallen)
+
+average=totallen/len(testcase.split())
+print(average)
