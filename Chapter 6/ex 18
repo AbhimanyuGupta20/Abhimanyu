@@ -1,0 +1,4 @@
+def f2c(f):
+    c=f-32/1.8
+    c=round(c)
+    return c
