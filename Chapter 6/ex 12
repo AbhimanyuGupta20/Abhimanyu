@@ -1,0 +1,4 @@
+def hypotenuse(leg1,leg2):
+    hypo=leg1*leg1 + leg2*leg2
+    hypofinal= hypo**0.5
+    return hypofinal
