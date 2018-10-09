@@ -1,0 +1,7 @@
+test(3 % 4 == 0)    TRUE
+test(3 % 4 == 3)    FALSE
+test(3 / 4 == 0)    TRUE
+test(3 // 4 == 0)   FALSE
+test(3+4  *  2 == 14)    TRUE
+test(4-2+2 == 0)    FALSE
+test(len("hello, world!") == 13) TRUE
