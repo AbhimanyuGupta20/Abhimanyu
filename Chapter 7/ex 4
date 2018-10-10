@@ -1,0 +1,8 @@
+def lengthcheck(list):
+    num=0
+    for i in range(len(list)):
+        if len(list[i])==5:
+            num+=1
+    print(num)
+
+lengthcheck(['hello','hi','yes','no'])
