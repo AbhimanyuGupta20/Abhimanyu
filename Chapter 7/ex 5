@@ -1,0 +1,8 @@
+def evenadd(list):
+    sumeven=0
+    for i in range(len(list)):
+        if list[i]%2==0:
+            sumeven+=list[i]
+        elif list[i]%2!=0:
+            break
+    print(sumeven)
