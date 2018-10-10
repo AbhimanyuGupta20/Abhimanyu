@@ -1,0 +1,8 @@
+def until(list):
+    count=0
+    for i in range(len(list)):
+        if list[i]!='sam':
+            count+=1
+        elif list[i]=='sam':
+            break
+    print(count)
