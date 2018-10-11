@@ -1,0 +1,4 @@
+def sumofsquares(xs):
+    squaresum=0
+    for i in range(len(xs)):
+        squaresum+=xs[i]**2
