@@ -1,0 +1,15 @@
+string='Hello! My name is Abhimanyu.'
+punctuation="!@#$%^&*()_+-={}[]:;?,."
+alphabet='qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'
+newstring=""
+finalstring=""
+for letter in string:
+    if letter not in punctuation:
+        newstring+=letter
+for letter in newstring:
+    if letter in alphabet:
+        finalstring+=letter
+
+
+print(finalstring)
+
