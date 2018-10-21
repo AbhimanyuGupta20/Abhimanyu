@@ -1,0 +1,6 @@
+def remove(string,character):
+    newstring=""
+    for letter in string:
+        if letter!=character:
+            newstring+=letter
+    print(newstring)
