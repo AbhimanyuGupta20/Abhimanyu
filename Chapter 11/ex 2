@@ -1,0 +1,8 @@
+import turtle
+
+tess = turtle.Turtle()
+alex = tess
+alex.color("hotpink")
+
+One instance of turtle is described as alex is just equated to tess, which is a turtle.
+Changing the color of Alex also changes the colour of Tess as alex has been assigned the value of Tess.
