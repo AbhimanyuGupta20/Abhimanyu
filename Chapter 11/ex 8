@@ -1,0 +1,6 @@
+def replace(s,old,new):
+    new=''
+    new+=s.replace(old,new)
+    print(new)
+
+replace("Mississippi", "i", "I")
