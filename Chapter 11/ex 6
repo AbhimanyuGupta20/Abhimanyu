@@ -1,0 +1,9 @@
+def scalar_mult(s,v):
+    n=0
+    mult=[]
+
+    for i in range(len(v)):
+        mult.append(s*v[n])
+        n+=1
+    print(mult)
+scalar_mult(5, [1, 2])
