@@ -1,0 +1,9 @@
+def add_vectors(u,v):
+    n=0
+    sum=[]
+    for i in range(len(u)):
+        sum.append(u[n] + v[n])
+        n+=1
+    print(sum)
+
+add_vectors([1, 1], [1, 1])
