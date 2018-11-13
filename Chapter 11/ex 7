@@ -1,0 +1,8 @@
+def dot_product(u,v):
+    scalarlist=[]
+    n=0
+    for i in range(len(u)-1):
+        scalarlist.append(u[n]*v[n]+u[n+1]*v[n+1])
+        n+=1
+    print(scalarlist)
+dot_product([1, 1], [1, 1])
