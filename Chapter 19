@@ -1,0 +1,9 @@
+def readposint():
+    num=int(input('Enter a number'))
+    try:
+        if num>0:
+            print('Passes')
+    except:
+        print('Invalid number')
+
+readposint()
