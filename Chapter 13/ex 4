@@ -1,0 +1,11 @@
+mynewhandle = open("Monsters.txt", "r")
+newfile=open("Newfile.txt","w")
+count=1
+while True:
+    theline = mynewhandle.readline()
+    if len(theline) == 0:
+        break
+    newfile.write(theline)
+
+print(newfile)
+mynewhandle.close()
