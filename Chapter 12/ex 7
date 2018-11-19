@@ -1,0 +1,5 @@
+['If', 'we', 'took', 'the', 'bones', 'out,', 'it', "wouldn't", 'be', 'crunchy,', 'would', 'it?']
+<class 'list'>
+['If we t', '', 'k the b', 'nes ', 'ut, it w', "uldn't be crunchy, w", 'uld it?']
+['If we took the bones out, ', "t wouldn't be crunchy, would ", 't?']
+If we t00k the b0nes 0ut, it w0uldn't be crunchy, w0uld it?
