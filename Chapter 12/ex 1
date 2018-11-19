@@ -1,0 +1,4 @@
+import calendar
+cal = calendar.TextCalendar(calendar.THURSDAY)
+cal.pryear(2012)
+
