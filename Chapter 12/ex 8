@@ -1,0 +1,37 @@
+def cleanword(str):
+    new=''
+    for i in str:
+        num=ord(i)
+        if num<=122 or num>=97:
+            actual=chr(num)
+            new+=actual
+    print(new)
+
+def has_dashdash(str):
+    new=''
+    for i in str:
+        if i!='-':
+            new+=i
+
+def split(str):
+    wordlist=[]
+    wordlist=str.split()
+    print(wordlist)
+
+def wordcount(n,list):
+    count=0
+    for i in list:
+        if i==n:
+            count+=1
+    print(count)
+
+def sortlist(list):
+    final=sorted(list)
+    print(final)
+
+def largest(list):
+    large=0
+    for i in list:
+        if len(i)>large:
+            large=len(i)
+    print(large)
