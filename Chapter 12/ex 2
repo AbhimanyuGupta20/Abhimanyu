@@ -1,0 +1,4 @@
+49
+
+The Math.ceil() function returns the smallest integer greater than or equal to a given number. Math.floor(double a) returns the largest (closest to positive infinity) double value that is less than or equal to the argument and is equal to a mathematical integer.
+
