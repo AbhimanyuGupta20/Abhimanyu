@@ -1,0 +1,3 @@
+f=open("Monsters.txt",'r')
+for line in reversed(list(open("Monsters.txt"))):
+    print(line.rstrip())
