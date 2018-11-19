@@ -1,0 +1,9 @@
+mynewhandle = open("Monsters.txt", "r")
+while True:
+    theline = mynewhandle.readline()
+    if len(theline) == 0:
+        break
+    if "snake" in theline:
+        print(theline)
+
+mynewhandle.close()
