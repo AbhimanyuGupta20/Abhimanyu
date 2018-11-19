@@ -1,0 +1,9 @@
+mynewhandle = open("Monsters.txt", "r")
+count=1
+while True:
+    theline = mynewhandle.readline()
+    if len(theline) == 0:
+        break
+    print(count,theline)
+    count+=1
+mynewhandle.close()
