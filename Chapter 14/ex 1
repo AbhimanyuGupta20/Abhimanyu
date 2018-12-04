@@ -1,0 +1,33 @@
+a)
+handle=open("aliceinwonderland","r")
+handle2=open("vocablist","r")
+common=[]
+while True:
+    theword = handle2.readline()
+    if theword in handle:
+        common.append(theword)
+        
+b)
+handle=open("aliceinwonderland","r")
+handle2=open("vocablist","r")
+
+onlyfirst=[]
+while True:
+    theword = handle2.readline()
+    splitword=theword.split()
+    if splitword in handle2:
+        onlyfirst.append(splitword)
+
+c)
+handle=open("aliceinwonderland","r")
+handle2=open("vocablist","r")
+
+onlysecond=[]
+while True:
+    theword = handle2.readline()
+    if theword not in handle2:
+        onlysecond.append(theword)
+
+print(onlysecond)
+
+
