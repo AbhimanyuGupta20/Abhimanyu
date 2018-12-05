@@ -41,6 +41,58 @@ for x in range(len(list)):
         for i in range(2,list[x]):
             if not list[x]%i:
                 print('prime')
+             
+e)
+import random
+
+my_tickets =  [[ 7, 17, 37, 19, 23, 43],
+               [ 7,  2, 13, 41, 31, 43],
+               [ 2,  5,  7, 11, 13, 17],
+               [13, 17, 37, 19, 23, 43]]
+
+primes=[2,3,5,7,11,13,17,19,23,29,31,37]
+
+correct=[]
+for i in range(6):
+    a=random.randint(1,49)
+    correct.append(a)
+
+for i in my_tickets:
+    print('Primes missed in ticket -')
+    for z in correct:
+        if z in primes and z not in i:
+            print(z)
+
+f)
+import random
+
+my_tickets =  [[ 7, 17, 37, 19, 23, 43],
+               [ 7,  2, 13, 41, 31, 43],
+               [ 2,  5,  7, 11, 13, 17],
+               [13, 17, 37, 19, 23, 43]]
+
+primes=[2,3,5,7,11,13,17,19,23,29,31,37]
+
+correct=[]
+
+timesdrawn=0
+atleast=0
+while atleast<=3:
+    for i in range(6):
+        a=random.randint(1,49)
+        correct.append(a)
+        print('New taken')
+    for i in my_tickets:
+        for z in i:
+            if z in correct:
+                atleast+=1
+        if atleast==3:
+            break
+        else:
+            atleast==0
+            timesdrawn+=1
+
+print(timesdrawn)
 
 
 
