@@ -1,0 +1,23 @@
+
+class Point:
+    """ Create a new Point, at coordinates x, y """
+
+    def __init__(self, x, y):
+        """ Create a new point at x, y """
+        self.x = x
+        self.y = y
+
+
+    def reflect(self):
+        print(self.x)
+        if self.y<1:
+            print (self.y)
+        elif self.y>1:
+            y=str(self.y)
+            print ('-'+y)
+        else:
+            print (self.y)
+
+p=Point(6,4)
+p.reflect()
+
