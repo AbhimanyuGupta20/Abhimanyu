@@ -1,0 +1,29 @@
+class Point:
+    """ Create a new Point, at coordinates x, y """
+
+    def __init__(self, x, y):
+        """ Create a new point at x, y """
+        self.x = x
+        self.y = y
+
+    def reflect(self):
+        print(self.x)
+        if self.y<1:
+            print (self.y)
+        elif self.y>1:
+            y=str(self.y)
+            print ('-'+y)
+        else:
+            print (self.y)
+
+    def slope(self):
+        print((self.x-0)/(self.y-0))
+
+    def eq2(self,x2,y2):
+        m=(x2-self.x)/(y2-self.y)
+        c=y2-(m*x2)
+        print('y=%dx+ %d' % (m,c))
+
+
+p=Point(6,4)
+p.eq2(4,5)
