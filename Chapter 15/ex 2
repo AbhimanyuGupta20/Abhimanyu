@@ -1,23 +1,24 @@
-
 class Point:
-    """ Create a new Point, at coordinates x, y """
-
-    def __init__(self, x, y):
-        """ Create a new point at x, y """
+    def __init__(self,x,y):
         self.x = x
         self.y = y
-
-
-    def reflect(self):
-        print(self.x)
-        if self.y<1:
-            print (self.y)
-        elif self.y>1:
-            y=str(self.y)
-            print ('-'+y)
+    def distance_from_origin(self):
+        return ((self.x ** 2) + (self.y ** 2)) ** 0.5
+    def reflect_x(self):
+        new=''
+        if self.y>0:
+            self.y=str(self.y)
+            new+='-'
+            new+=self.y
+            new=int(new)
+            return (self.x,new)
         else:
-            print (self.y)
-
-p=Point(6,4)
-p.reflect()
+            self.y=str(self.y)
+            new+='+'
+            for i in self.y:
+                if i!='-':
+                    new+=i
+            return (self.x,new)
+x=Point(1,2)
+print(x.reflect_x())
 
