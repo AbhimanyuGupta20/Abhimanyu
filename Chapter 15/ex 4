@@ -1,29 +1,31 @@
 class Point:
-    """ Create a new Point, at coordinates x, y """
-
-    def __init__(self, x, y):
-        """ Create a new point at x, y """
+    def __init__(self,x,y):
         self.x = x
         self.y = y
-
-    def reflect(self):
-        print(self.x)
-        if self.y<1:
-            print (self.y)
-        elif self.y>1:
-            y=str(self.y)
-            print ('-'+y)
+    def distance_from_origin(self):
+        return ((self.x ** 2) + (self.y ** 2)) ** 0.5
+    def reflect_x(self):
+        new=''
+        if self.y>0:
+            self.y=str(self.y)
+            new+='-'
+            new+=self.y
+            new=int(new)
+            return (self.x,new)
         else:
-            print (self.y)
-
-    def slope(self):
-        print((self.x-0)/(self.y-0))
-
-    def eq2(self,x2,y2):
-        m=(x2-self.x)/(y2-self.y)
-        c=y2-(m*x2)
-        print('y=%dx+ %d' % (m,c))
-
-
-p=Point(6,4)
-p.eq2(4,5)
+            self.y=str(self.y)
+            new+='+'
+            for i in self.y:
+                if i!='-':
+                    new+=i
+            return (self.x,new)
+    def slope_from_origin(self):
+        gradient=self.y/self.x
+        return gradient
+    def get_line_to(self,other):
+        m=other.y-self.y-other.x-self.x
+        c=other.y-(m*other.x)
+        return m,c
+x=Point(5,4)
+other=Point(3,4)
+print(x.get_line_to(other))
