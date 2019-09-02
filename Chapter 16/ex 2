@@ -1,0 +1,18 @@
+class Rectangle:
+
+    def __init__(self, posn, w, h):
+        self.corner = posn
+        self.width = w
+        self.height = h
+
+    def area(self):
+        area=self.width*self.height
+        return area
+
+    def perimetre(self):
+        sum=self.width+self.height
+        perimetre=2*sum
+        return perimetre
+
+x=Rectangle((0,0),10,5)
+print(x.perimetre())
