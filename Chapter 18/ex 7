@@ -1,0 +1,8 @@
+def flatten(list):
+    flat = []
+    for i in list:
+        if type(i) == type([]):
+            flat.extend(flatten(i))
+        else:
+            flat.append(i)
+    return flat
