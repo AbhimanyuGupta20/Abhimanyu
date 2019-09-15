@@ -1,0 +1,7 @@
+def count(target, list):
+    counter = 0
+    for e in list:
+        if type(e) == type([]):
+            counter += count(target, e)
+    counter += list.count(target)
+    return counter
