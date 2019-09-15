@@ -1,9 +1,8 @@
 def readposint():
-    num=int(input('Enter a number'))
-    try:
-        if num>0:
-            print('Passes')
-    except:
-        print('Invalid number')
+    num=input('Enter a number')
+    if type(num)==int and num>0:
+        print('passes')
+    else:
+        print('fails')
 
 readposint()
