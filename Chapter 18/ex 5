@@ -1,0 +1,14 @@
+def recursive_min(list):
+    first=True
+    smallest=0
+    for element in list:
+        if type(element) == type([]):
+            value = recursive_min(element)
+        else:
+            value = element
+
+        if first or value < smallest:
+            smallest = value
+            first = False
+
+    return smallest
