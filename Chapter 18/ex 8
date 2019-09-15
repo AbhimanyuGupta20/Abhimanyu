@@ -1,0 +1,9 @@
+
+def fibonacci(n):
+    second = 1
+    first = 0
+    for i in range(n-1):
+        total = second + first
+        first = second
+        second = total
+    return total
