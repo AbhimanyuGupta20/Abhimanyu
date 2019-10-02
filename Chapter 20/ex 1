@@ -1,0 +1,6 @@
+letter_counts = {}
+string=input('enter string')
+for letter in string:
+    letter_counts[letter] = letter_counts.get(letter,0) + 1
+
+print(letter_counts)
