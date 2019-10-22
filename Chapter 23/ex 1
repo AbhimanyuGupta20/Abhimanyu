@@ -1,0 +1,4 @@
+class OldMaidGame(CardGame):
+  def print_hands(self):
+    for hand in self.hands:
+      print(hand)
